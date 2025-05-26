@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+footer{
+    background-color: #000000;
+    font-size: large;
+    color: rgb(255, 255, 255);
+    margin: 40px 0 0 0;
+    display:grid;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+.socialicons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    gap: 20px;
+}
+.socialicons a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+     
+    transition: color 0.3s ;
+
+}
+header{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+   
+    
+}
+nav{
+    display: flex;
+    gap: 20px;
+   
+    list-style: none;
+}
+nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 10px;
+    transition: color 0.3s;
+    font-weight: bold;
+    top: 20px;
+}
+.container{
+    width: 80%;
+    height: 500px;
+    position: relative;
+
+}
+.container a{
+    position: absolute;
+    top: 100%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    font-weight: bold;
+}
